@@ -6,6 +6,17 @@
 }
 
 /* 2. exercice-baseline-2 */
+.exercice-baseline-2 .container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.exercice-baseline-2 .container .element-yellow .element-med {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
 
 /* 3. exercice-baseline-3 */
 
